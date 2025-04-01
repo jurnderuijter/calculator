@@ -13,3 +13,7 @@ def test_summation(calculator):
 
 def test_difference(calculator):
     assert 4 == calculator.difference(8, 4)
+
+
+def test_product(calculator):
+    assert 4 == calculator.product(2, 2)
